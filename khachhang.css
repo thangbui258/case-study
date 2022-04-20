@@ -1,0 +1,40 @@
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+#food-list .card{
+    width: 22%;
+    margin-left: 5px;
+    display: inline-block;
+}
+.card button:hover {
+    opacity: 0.7;
+}
+
+#buyScreen{
+    width: 100%;
+}
+#food-list{
+    width: 73%;
+    float: left;
+}
+#cart{
+    width: 27%;
+    float: left;
+    background-color: bisque;
+    min-height: 500px;
+}
+.btn{
+    padding: 3px 7px;
+    background-color: transparent;
+    border-color: #ee4d2d;
+    color: #ee4d2d;
+    border-radius: 3px;
+}
